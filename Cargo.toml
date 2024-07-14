@@ -1,0 +1,10 @@
+[package]
+name = "df_sql_bug"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.81"
+datafusion = "40.0.0"
+futures = "0.3.30"
+tokio = {version = "1.38.0", features = ["rt-multi-thread", "macros"]}
